@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MicroserviceVaxi\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj": {}
+    "C:\\DANY FLORES\\Proyectos DANY\\GIT\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj": {}
   },
   "projects": {
-    "C:\\MicroserviceVaxi\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj": {
+    "C:\\DANY FLORES\\Proyectos DANY\\GIT\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MicroserviceVaxi\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
+        "projectUniqueName": "C:\\DANY FLORES\\Proyectos DANY\\GIT\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
         "projectName": "Servicios.api.Libreria",
-        "projectPath": "C:\\MicroserviceVaxi\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
-        "packagesPath": "C:\\Users\\javix\\.nuget\\packages\\",
-        "outputPath": "C:\\MicroserviceVaxi\\Microservices\\Servicios.api.Libreria\\obj\\",
+        "projectPath": "C:\\DANY FLORES\\Proyectos DANY\\GIT\\Microservices\\Servicios.api.Libreria\\Servicios.api.Libreria.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\DANY FLORES\\Proyectos DANY\\GIT\\Microservices\\Servicios.api.Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\javix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -45,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.11.2, )"
@@ -60,10 +63,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

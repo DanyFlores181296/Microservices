@@ -1,0 +1,13 @@
+
+*.cache
+*.csproj
+*.exe
+*.cache
+*.props
+*.targets
+*.v2
+*.vsidx
+*.lock
+*.props
+*.targets
+*.user
