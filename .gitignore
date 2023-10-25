@@ -59,3 +59,5 @@ Servicios.api.Seguridad/obj/Docker/publish/Servicios.api.Seguridad.deps.json
 Servicios.api.Seguridad/obj/Docker/publish/Servicios.api.Seguridad.runtimeconfig.json
 Servicios.api.Seguridad/obj/Servicios.api.Seguridad.csproj.EntityFrameworkCore.targets
 Servicios.api.Seguridad/obj/Servicios.api.Seguridad.csproj.EntityFrameworkCore.targets
+*.v2
+.vs/Microservices/v17/.suo
